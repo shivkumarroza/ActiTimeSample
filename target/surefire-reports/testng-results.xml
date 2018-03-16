@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected Page actiTIME - Login is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Expected Page actiTIME - Enter Time-Track is Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34491" started-at="2018-03-16T15:10:18Z" finished-at="2018-03-16T15:10:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34491" started-at="2018-03-16T15:10:18Z" finished-at="2018-03-16T15:10:53Z">
+      <class name="script.ValidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.ValidLogin@6b2fad11]" name="openApplication" is-config="true" duration-ms="25909" started-at="2018-03-16T15:10:18Z" finished-at="2018-03-16T15:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:script.ValidLogin@6b2fad11]" name="testValidLogin" duration-ms="7010" started-at="2018-03-16T15:10:44Z" finished-at="2018-03-16T15:10:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Page actiTIME - Login is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Expected Page actiTIME - Enter Time-Track is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@6b2fad11]" name="closeApplication" is-config="true" duration-ms="1543" started-at="2018-03-16T15:10:51Z" finished-at="2018-03-16T15:10:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:0, instance:script.ValidLogin@6b2fad11] output=Expected Page actiTIME - Login is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

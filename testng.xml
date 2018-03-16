@@ -1,0 +1,14 @@
+<suite name="Suite" parallel="tests">
+  <test name="ChromeTest">
+  <parameter name="browser" value="chrome"/>
+    <packages>
+    <package name="script"/>
+    </packages>
+  </test> 
+  <test name="FireFoxTest">
+  <parameter name="browser" value="firefox"/>
+    <packages>
+    <package name="script"/>
+    </packages>
+  </test> 
+</suite> 
